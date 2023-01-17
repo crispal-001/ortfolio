@@ -1,0 +1,430 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+	background-color: black;
+}
+
+
+.hero{
+	background: url(avatar_g2.jpg) no-repeat;
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+span{
+	color: black;
+}
+
+nav ul li{
+	padding:10px 25px;
+	display: inline-block; 
+}
+
+nav ul li a{
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+		color: yellow;
+		border-bottom: 2px solid white;
+		transition: .4s;
+}
+
+.btn{
+	background-color: white;
+	color: black;
+	padding: 10px 25px;
+	border-radius: 30px;
+	font-weight: bold;
+	transition: transform .4s;
+}
+
+.btn:hover{
+	transform: scale(1.2);
+	background: grey;
+	color: white;
+}
+
+
+.content{
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+h4{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+h1{
+	color: white;
+	font-size: 75px;
+	margin: 20px 0 20px;
+}
+
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.newlatter form{
+	max-width: 100%;
+	width: 380px;
+	position: relative;
+}
+
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	outline: none;
+	border: 2px solid black;
+	border-radius: 30px;
+	padding: 14px 130px 14px 15px;
+}
+
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	margin-top: 6px;
+	right: 1.5%;
+}
+
+.newslatter form input:last-child:hover{
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	cursor: pointer;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: grey;
+	color: black;
+}
+
+.about img{
+	height: 60vh;
+	width: 430px;
+}
+
+.about-text{
+	width: 550px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	margin-bottom: 20px;
+}
+
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+button{
+	background-color: black;
+	color: white;
+	padding: 13px 30px;
+	border-radius: 30px;
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.service{
+	background-color: black;
+ 	color: white;
+ 	width: 100%;
+ 	padding: 100px 0px;
+}
+
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+.card{
+	height: 365px;
+	width: 335px;
+	border: 5px solid grey;
+	padding: 20px 35px;
+	background-color:  black;
+	margin: 15px;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card i{
+	font-size: 50px;
+	display: block;
+	margin: 25px 0px;
+}
+
+h5{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.pra p{
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 25px;
+}
+
+.card .button{
+	background-color: grey;
+	color: white;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 22px;
+}
+
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid grey;
+	cursor: pointer;
+}
+
+.card:hover{
+	border-radius: 80px;
+}
+
+.contact-me{
+	width: 100%;
+	height: 20vh;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contact-me p{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+}
+
+.contact-me .button-two:hover{
+	background-color: white;
+	border: 2px solid black;
+	cursor: pointer;
+	color: black;
+}
+
+.contact{
+	background-color: black;
+	color: white;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: left;
+}
+
+
+.contact .contact-form input{
+	width: 50%;
+	color: white;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	background-color: black;
+	border: 2px solid white;
+}
+
+.contact .contact-form input{
+	width: 500px;
+	color: white;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-left: none;
+	margin-right: 20px;
+	background-color: black;
+	border: 2px solid white;
+}
+
+.contact .contact-form textarea{
+	width: 500px;
+	color: white;
+	padding: 0 20px;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	background-color: black;
+	border: 2px solid white;
+	margin-left: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.contact .contact-form a{
+	background-color: grey;
+	color: black;
+	border-radius: 50px;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+}
+
+.contact .contact-form a:hover{
+		color: white;
+		background-color: blue;
+		transition: .4s;	
+}
+
+footer{
+	background-color: black;
+	color: white;
+	margin-top: 30px;
+}
+
+.contact-info .info-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+.info-box{
+	background-color: grey;
+	color: black;
+	width: 500px;
+	padding: 2px;
+	border-radius: 2px;
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+
+/*.contact-info{
+	display: inline-block;
+}
+*/
+h3{
+	color: white;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*footer .social a{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}*/
+
+.social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.social a .icofont-facebook{
+	background-color: grey;
+	color: black;
+	border-radius: 50px;
+	padding: 20px 20px;
+	margin-left: 10px;
+}
+
+.social a .icofont-twitter{
+	background-color: grey;
+	color: black;
+	border-radius: 50px;
+	padding: 20px 20px;
+	margin-left: 10px;
+}
+
+.social a .icofont-instagram{
+	background-color: grey;
+	color: black;
+	border-radius: 50px;
+	padding: 20px 20px;
+	margin-left: 10px;
+}
